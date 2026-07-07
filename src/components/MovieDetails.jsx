@@ -10,10 +10,10 @@ const MovieDetails = () => {
     <div className='bg-black  text-white py-14 px-10 h-full md:h-screen'>
         <button onClick={()=>{
             history.back()
-        }} className="bg-red-700 mb-10 cursor-pointer px-4 py-2  rounded-lg text-2xl">Back</button>
+        }} className="bg-red-700 mb-10 cursor-pointer  px-4 py-2 text-[15px] rounded-lg md:text-2xl">Back</button>
        
        <div className='flex w-full max-w-5xl md:flex-row flex-col   gap-8'>
-        <div className='bg-gray-900 rounded-xl overflow-hidden h-100 w-full max-w-2xs'>
+        <div className='bg-gray-900 rounded-xl overflow-hidden h-85 md:h-100 w-full max-w-2xs'>
        <img className="w-full h-full object-cover" src={`https://image.tmdb.org/t/p/original${state.poster_path}`} />
         </div>
        <div>
